@@ -1,10 +1,10 @@
 # Stop the console application if it's already running
 # Set the application path
 
-Get-Process -Name "ConsolePipeline" -ErrorAction SilentlyContinue | Stop-Process -Force
+Get-Process -Name "HelloApp" -ErrorAction SilentlyContinue | Stop-Process -Force
 
 # Specify the path to your console application executable
-$consoleAppPath = "C:\Hello\ConsolePipeline"
+$consoleAppPath = "C:\Hello\HelloApp"
 # Clean the application directory
 Remove-Item -Path $consoleAppPath\* -Recurse -Force
 dotnet publish -c Release -o $consoleAppPath
