@@ -10,7 +10,7 @@ namespace HelloApp
     {
         public string GetName()
         {
-            string name = "Hello,My Console App";
+            string name = "Hello,My Console App You Succeeded";
             Console.WriteLine(name);
             return name;
 
