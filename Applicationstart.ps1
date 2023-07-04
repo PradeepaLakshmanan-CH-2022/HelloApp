@@ -13,5 +13,5 @@ $outputContent = & dotnet run --no-restore --no-build --project $consoleAppPath
 # Combine the output with the timestamp
 $outputContentWithTimestamp = "Console application output ($timestamp):`r`n$outputContent"
 
-# Write the output to the file
-$outputContentWithTimestamp | Out-File -FilePath $outputFilePath -Encoding UTF8
+# Append the output to the file
+$outputContentWithTimestamp | Out-File -FilePath $outputFilePath -Append -Encoding UTF8
