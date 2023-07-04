@@ -1,0 +1,5 @@
+C:\Users\Pradeepa.lakshmanan\source\repos\HelloApp\HelloApp\obj\Debug\net6.0\HelloApp.csproj.AssemblyReference.cache
+C:\Users\Pradeepa.lakshmanan\source\repos\HelloApp\HelloApp\obj\Debug\net6.0\HelloApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Pradeepa.lakshmanan\source\repos\HelloApp\HelloApp\obj\Debug\net6.0\HelloApp.AssemblyInfoInputs.cache
+C:\Users\Pradeepa.lakshmanan\source\repos\HelloApp\HelloApp\obj\Debug\net6.0\HelloApp.AssemblyInfo.cs
+C:\Users\Pradeepa.lakshmanan\source\repos\HelloApp\HelloApp\obj\Debug\net6.0\HelloApp.csproj.CoreCompileInputs.cache
