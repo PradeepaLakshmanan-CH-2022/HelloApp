@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32804.467
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloApp", "HelloApp.csproj", "{F01C948B-EF7C-4E70-ADD1-DF43C1DD6CD5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloTestProject", "..\HelloTestProject\HelloTestProject.csproj", "{38EF58E7-C8A2-491B-ACA1-57F729C44E98}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{2B2C95AC-201D-4A6A-BB1D-EAE682B82F4F}"
+	ProjectSection(SolutionItems) = preProject
+		Applicationstart.ps1 = Applicationstart.ps1
+		appspec.yml = appspec.yml
+		buildspec.yml = buildspec.yml
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F01C948B-EF7C-4E70-ADD1-DF43C1DD6CD5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F01C948B-EF7C-4E70-ADD1-DF43C1DD6CD5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F01C948B-EF7C-4E70-ADD1-DF43C1DD6CD5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F01C948B-EF7C-4E70-ADD1-DF43C1DD6CD5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{38EF58E7-C8A2-491B-ACA1-57F729C44E98}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{38EF58E7-C8A2-491B-ACA1-57F729C44E98}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{38EF58E7-C8A2-491B-ACA1-57F729C44E98}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{38EF58E7-C8A2-491B-ACA1-57F729C44E98}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BBAC7A8B-1682-4581-BFA8-BB7056D3D571}
+	EndGlobalSection
+EndGlobal
