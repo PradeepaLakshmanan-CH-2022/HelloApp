@@ -10,6 +10,8 @@ $consoleAppPath = "C:\Hello\HelloApp"
 
 # Specify the path for the output file
 $outputFilePath = "C:\Outputfile\Output.txt"
+# Get the current timestamp
+$timestamp = Get-Date -Format "yyyy-MM-dd HH:mm:ss"
 
 # Run the console application and redirect the output to a file
 Start-Process -FilePath "dotnet" -ArgumentList "run", "--no-restore", "--no-build", "--project", $consoleAppPath, "--", ">", $outputFilePath -NoNewWindow -Wait
