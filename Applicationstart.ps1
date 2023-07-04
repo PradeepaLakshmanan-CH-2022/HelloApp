@@ -5,9 +5,7 @@ Get-Process -Name "HelloApp" -ErrorAction SilentlyContinue | Stop-Process -Force
 
 # Specify the path to your console application executable
 $consoleAppPath = "C:\Hello\HelloApp"
-# Clean the application directory
-Remove-Item -Path $consoleAppPath\* -Recurse -Force
-dotnet publish -c Release -o $consoleAppPath
+
 
 # Specify the path for the output file
 $outputFilePath = "C:\Outputfile\Output.txt"
