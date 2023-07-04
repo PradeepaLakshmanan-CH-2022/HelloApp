@@ -2,10 +2,10 @@
 # Set the application path
 
 
-Get-Process -Name "HelloApp" -ErrorAction SilentlyContinue | Stop-Process -Force
+Get-Process -Name "Helloworld" -ErrorAction SilentlyContinue | Stop-Process -Force
 
 # Specify the path to your console application executable
-$consoleAppPath = "C:\Hello\HelloApp"
+$consoleAppPath = "C:\Hello\Helloworld"
 
 
 # Specify the path for the output file
